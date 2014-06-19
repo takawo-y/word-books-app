@@ -7,12 +7,16 @@
     <file path="/Dummy.txt" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403083182076" ignored="false" />
     <file path="/wordBook.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403055923632" ignored="false" />
     <file path="/wordBookModel.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403079653610" ignored="false" />
-    <file path="/app.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403081994921" ignored="false" />
+    <file path="/app.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403155729816" ignored="false" />
     <file path="/package.json" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403057326554" ignored="false" />
-    <file path="/wordBooks.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403083954278" ignored="false" />
+    <file path="/wordBooks.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403156961382" ignored="false" />
     <file path="/wordBook.ejs" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403059688285" ignored="false" />
     <file path="/routers.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403068657149" ignored="false" />
     <file path="$PROJECT_DIR$/../express-mongoose-mvc/npm-debug.log" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403083412694" ignored="false" />
+    <file path="$PROJECT_DIR$/../mongoose-sample/models/WordBook.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403155355089" ignored="false" />
+    <file path="/WordBook.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403153740346" ignored="false" />
+    <file path="$PROJECT_DIR$/../mongoose-sample/app.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403155732256" ignored="false" />
+    <file path="$PROJECT_DIR$/../mongoose-sample/routes/wordbooks.js" changelist="86415617-46af-48c1-a2bc-a556b1bd5635" time="1403155783151" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,19 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="12" selection-start="623" selection-end="623" vertical-scroll-proportion="0.53311795">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wordBook.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/wordBook.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+            <state line="20" column="42" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,7 +48,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+            <state line="8" column="20" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,29 +57,16 @@
       <file leaf-file-name="wordBooks.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/wordBooks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="19" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
+            <state line="16" column="19" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wordBookModel.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/wordBookModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="22" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#161#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wordBookList.ejs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="wordBookList.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/wordBookList.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="222" selection-end="231" vertical-scroll-proportion="0.0">
+            <state line="12" column="40" selection-start="321" selection-end="321" vertical-scroll-proportion="0.2538787">
               <folding />
             </state>
           </provider>
@@ -93,10 +75,8 @@
       <file leaf-file-name="routers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="32" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#161#0" expanded="false" />
-              </folding>
+            <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +84,7 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="18" selection-start="120" selection-end="120" vertical-scroll-proportion="-3.75">
+            <state line="6" column="4" selection-start="120" selection-end="120" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -126,17 +106,18 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/routers.js" />
         <option value="$PROJECT_DIR$/views/wordBook.ejs" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/models/wordBookModel.js" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/wordBooks.js" />
+        <option value="$PROJECT_DIR$/views/wordBookList.ejs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="204" />
-    <option name="y" value="76" />
-    <option name="width" value="1491" />
-    <option name="height" value="807" />
+    <option name="x" value="229" />
+    <option name="y" value="96" />
+    <option name="width" value="1546" />
+    <option name="height" value="897" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -245,7 +226,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../express-mongoose-mvc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -286,13 +267,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="204" y="76" width="1491" height="807" extended-state="0" />
-    <editor active="false" />
+    <frame x="229" y="96" width="1546" height="897" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24913971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24005306" sideWeight="0.9972028" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -383,9 +364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/wordBook.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="8" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
@@ -398,98 +377,75 @@
     <entry file="file://$PROJECT_DIR$/routes/wordBooks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="20" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/wordBook.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/wordBookList.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="222" selection-end="231" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="25" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="20" selection-end="67" vertical-scroll-proportion="0.024232633">
+        <state line="1" column="9" selection-start="20" selection-end="67" vertical-scroll-proportion="0.024232633" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="120" selection-end="120" vertical-scroll-proportion="-3.75">
+        <state line="6" column="4" selection-start="120" selection-end="120" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers.js">
+    <entry file="file://$PROJECT_DIR$/models/WordBook.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#161#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/wordBooks_old.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="17" column="28" selection-start="405" selection-end="405" vertical-scroll-proportion="0.3596615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+        <state line="8" column="20" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/wordBookModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="22" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#161#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/wordBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="623" selection-end="623" vertical-scroll-proportion="0.53311795">
+        <state line="20" column="42" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/wordBooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="19" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/wordBookList.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="40" selection-start="321" selection-end="321" vertical-scroll-proportion="0.2538787">
           <folding />
         </state>
       </provider>

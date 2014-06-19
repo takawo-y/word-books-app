@@ -4,9 +4,14 @@ var favicon = require('static-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var mongoose = require("mongoose");
 
 var app = express();
-//require('./routers')(app);
+
+// DB Connect
+var uriString = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL ||
+		"mongodb://localhost/test";
+mongoose.connect(uriString);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -19,9 +24,16 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-var wordbooks = require('./routes/wordBooks');
-app.get('/wordbooks', wordbooks.findAll);
-app.get('/wordbooks/:id', wordbooks.findById);
+//Mongoose
+//var model = require('./models/WordBook');
+//app.get('/wordbooks', function(req, res){
+//	model.find(function(err, wordbooks){
+//		 res.json(wordbooks);
+//	});
+//});
+//var wbRouter = require('./routes/wordbooks');
+//app.use('/wordbooks', wbRouter);
+require('./routers')(app);
 
 
 /// catch 404 and forward to error handler
