@@ -23,4 +23,20 @@ router.get('/:id', function(req, res) {
 	});
 });
 
+/** 登録 **/
+router.post('/', function(req, res){
+	var wb = req.body;
+	var wbModel = new WordBook(wb);
+ 	wbModel.save(function(err, result){
+		if(!err){
+		 model.find(function(err, wordbooks){
+//		res.json(wordbooks);
+			res.render('wordBookList',{title: 'Word Book List', msg: '登録が完了しました', wordbooks: wordbooks});
+		 });
+		}else{
+			res.send({'error': 'An error has occurred - ' + err});
+		}
+ 	});
+});
+
 module.exports = router;

@@ -8,18 +8,10 @@
 var mongoose = require("mongoose");
 
 var wbSchema = new mongoose.Schema({
-	"word_book_id" : Number,
-	"work_book_name" : String,
-	"regist_date" : String,
-	"update_date" : String,
-	"front_card" : String,
-	"back_card" : String,
-	"results" : [
-		{
-			"date" : String,
-			"result" : Boolean
-		}
-	]
+	"word_book_name" : String,
+	"biko" : String,
+	"regist_date" : { type: Date, default: Date.now },
+	"update_date" : { type: Date, default: Date.now }
 });
 
 module.exports = mongoose.model('word_book', wbSchema);
