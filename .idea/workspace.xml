@@ -35,7 +35,7 @@
       <file leaf-file-name="routers.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="33" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="15" column="33" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1170">
+            <state line="19" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="wordBooks.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/wordBooks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="720">
+            <state line="26" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="wordBookList.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/wordBookList.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="28" selection-start="2725" selection-end="2725" vertical-scroll-proportion="-15.791667" vertical-offset="821" max-vertical-offset="1575">
+            <state line="80" column="28" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1575">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="Procfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628">
               <folding />
             </state>
           </provider>
@@ -98,7 +98,7 @@
       <file leaf-file-name="WordBook.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/WordBook.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="3" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="6" column="3" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -175,7 +175,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,6 +283,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -633,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/wordBook.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.27317882" vertical-offset="0" max-vertical-offset="604" />
@@ -678,9 +671,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2580">
-          <folding />
-        </state>
+        <state line="20" column="44" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2580" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/WordBook.js">
@@ -706,14 +697,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/wordBookList.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="28" selection-start="2725" selection-end="2725" vertical-scroll-proportion="-15.791667" vertical-offset="821" max-vertical-offset="1575">
+        <state line="80" column="28" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628">
           <folding />
         </state>
       </provider>
