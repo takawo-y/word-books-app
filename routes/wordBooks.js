@@ -14,20 +14,26 @@ router.get('/', function(req, res) {
 	});
 });
 
-/** ObjectId検索 **/
-router.get('/:id', function(req, res) {
-	var objectId = ObjectID.createFromHexString(req.params.id);
-	model.findById(objectId, function(err, wordbook){
-		res.json(wordbook);
-//		res.render('wordBookList',{title: 'Word Book List', wordbooks: wordbooks});
-	});
+/** 登録画面 **/
+router.get('/new', function(req, res){
+ res.render('wordBookRegist', {title: 'Word Book Add'});
 });
+
+/** ObjectId検索 **/
+//router.get('/:id', function(req, res) {
+//	var objectId = ObjectID.createFromHexString(req.params.id);
+//	model.findById(objectId, function(err, wordbook){
+//		res.json(wordbook);
+////		res.render('wordBookList',{title: 'Word Book List', wordbooks: wordbooks});
+//	});
+//});
 
 /** 登録 **/
 router.post('/', function(req, res){
-	var wb = req.body;
-	var wbModel = new WordBook(wb);
- 	wbModel.save(function(err, result){
+	model.create({
+		word_book_name: req.body.word_book_name,
+	 	biko: req.body.biko
+	},function(err, result){
 		if(!err){
 		 model.find(function(err, wordbooks){
 //		res.json(wordbooks);
@@ -38,5 +44,6 @@ router.post('/', function(req, res){
 		}
  	});
 });
+
 
 module.exports = router;

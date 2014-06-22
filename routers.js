@@ -13,8 +13,10 @@ var cards = require('./routes/cards');
 
 module.exports = function(app){
 	app.use('/', routes);
-	app.use('/wordbooks', wordBooks);
+	app.use('/wordbooks', wordBooks);  //単語帳リスト
 	app.use('/wordbooks/:id', wordBooks);
+ 	app.use('/wordbooks/new', wordBooks);  //登録画面
+
  	app.use('/cards/:id', cards);
 
 }
